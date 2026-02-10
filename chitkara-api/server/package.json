@@ -1,0 +1,16 @@
+{
+  "name": "chitkara-api",
+  "version": "1.0.0",
+  "description": "REST API with fibonacci, prime, lcm, hcf, and AI (Gemini) endpoints",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "optionalDependencies": {
+    "@google/generative-ai": "^0.3.0"
+  }
+}
