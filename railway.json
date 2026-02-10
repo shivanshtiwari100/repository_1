@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "buildCommand": "cd chitkara-api/server && npm install"
+  },
+  "deploy": {
+    "startCommand": "cd chitkara-api/server && npm start"
+  }
+}
